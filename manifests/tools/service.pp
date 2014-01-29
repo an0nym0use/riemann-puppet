@@ -1,3 +1,5 @@
+# Checks Riemann tools services
+# Currently has Health and Net tasks
 class riemann::tools::service {
   service {'riemann-health':
     ensure     => running,

@@ -1,3 +1,4 @@
+# Installs Riemann server
 class riemann::install {
   include wget
   include java

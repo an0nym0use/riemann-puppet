@@ -1,3 +1,4 @@
+# Riemann tools configuration
 class riemann::tools::config {
   $health_enabled = $riemann::tools::health_enabled
   $net_enabled = $riemann::tools::net_enabled

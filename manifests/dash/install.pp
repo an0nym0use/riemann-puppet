@@ -1,3 +1,4 @@
+# Riemann dashboard installation
 class riemann::dash::install {
   include gcc
 

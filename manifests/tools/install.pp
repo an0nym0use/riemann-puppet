@@ -1,3 +1,4 @@
+# Installs Riemann tools
 class riemann::tools::install {
   include gcc
 

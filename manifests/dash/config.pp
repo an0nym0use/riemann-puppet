@@ -1,3 +1,5 @@
+# Sets up config for Riemann dashboard
+# Also upstart job
 class riemann::dash::config {
   $host = $riemann::dash::host
   $port = $riemann::dash::port

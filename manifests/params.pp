@@ -1,3 +1,4 @@
+# Sets Riemann runtime parameters
 class riemann::params {
   $version = '0.2.1'
   $config_file = '/etc/riemann.sample.config'

@@ -1,3 +1,4 @@
+# Sets up Riemann configs and upstart job
 class riemann::config {
   $host = $riemann::host
   $port = $riemann::port

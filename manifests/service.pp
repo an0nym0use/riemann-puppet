@@ -1,3 +1,4 @@
+# Checks Riemann service status
 class riemann::service {
   service {'riemann':
     ensure     => running,

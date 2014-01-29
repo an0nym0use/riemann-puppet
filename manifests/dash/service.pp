@@ -1,3 +1,4 @@
+# Checks Riemann dashboard service status
 class riemann::dash::service {
   service {'riemann-dash':
     ensure     => running,
